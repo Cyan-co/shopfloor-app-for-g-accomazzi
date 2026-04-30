@@ -1,0 +1,23 @@
+Summary,Description,Priority,Phase
+Create User, Part, and Order entity classes,"Create entity classes for User, Part, and Order in com.bosch.shopfloor.model",P1,Foundation
+Create OrderStatus and Role enums,"Create enums for OrderStatus and Role in com.bosch.shopfloor.model",P1,Foundation
+Create User, Part, and Order repositories,"Create repository interfaces for User, Part, and Order in com.bosch.shopfloor.repository",P1,Foundation
+Create Flyway migration script,"Create a Flyway migration script to create the users, parts, and orders tables",P1,Foundation
+Create frontend data models,"Create TypeScript models for User, Part, and Order in src/app/models",P1,Foundation
+Create frontend enums,"Create TypeScript enums for OrderStatus and Role in src/app/models",P1,Foundation
+Create OrderService and UserService,"Create OrderService and UserService classes in com.bosch.shopfloor.service",P1,Core Backend
+Implement service methods,"Implement all methods for OrderService and UserService",P1,Core Backend
+Create OrderController,"Create OrderController class in com.bosch.shopfloor.controller",P1,Core Backend
+Implement controller endpoints,"Implement all endpoints for OrderController",P1,Core Backend
+Create DTOs,"Create Data Transfer Objects for request and response",P1,Core Backend
+Configure Spring Security,"Configure Spring Security with Keycloak integration",P1,Core Backend
+Implement RBAC,"Implement Role-Based Access Control on service methods using @PreAuthorize",P1,Core Backend
+Create custom exceptions,"Create custom exception classes for business rule violations",P1,Core Backend
+Implement global exception handler,"Implement a global exception handler to return appropriate HTTP status codes",P1,Core Backend
+Create frontend services,"Create OrderService, AuthService, and UserService in the frontend",P2,Frontend UI
+Create frontend components,"Create OrderTableComponent, CreateOrderFormComponent, and UserTableComponent",P2,Frontend UI
+Create frontend views,"Create ProductionDashboardComponent, WarehouseDashboardComponent, and AdminDashboardComponent",P2,Frontend UI
+Configure frontend routing,"Configure routing for the dashboards based on user role",P2,Frontend UI
+Implement styling,"Implement the main application layout using Tailwind CSS and ensure all components are responsive",P3,Integration & Styling
+Configure Angular proxy,"Configure a proxy for the Angular development server to communicate with the backend",P3,Integration & Styling
+Implement UI error handling,"Implement error handling in the UI to display user-friendly messages",P3,Integration & Styling
